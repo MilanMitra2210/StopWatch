@@ -1,0 +1,56 @@
+body {
+    background : url(images/tree-736885.jpg) center center fixed;
+    background-size: cover;
+    color: white;
+}
+#header{
+    text-align: center;
+    font-size: 5vw;
+}
+#lap{
+    text-align: right;
+    font-size: 3vw;
+}
+#time{
+    text-align: center;
+    font-size: 7vw;
+}
+#controlsContainer{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.control{
+    color: white;
+    background-color: #d7a04e;
+    height: 6vw;
+    width: 6vw;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+.control:active{
+    background-color: white;
+    color: #d7a04e;
+}
+#laps{
+    max-height: 270px;
+    overflow: scroll;
+}
+
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 25px;
+}
+.lapTimeTitle{
+    font-size: 1.5em;
+    float: left;
+}
+.lapTime{
+    font-size: 2em;
+    float: right;
+}
